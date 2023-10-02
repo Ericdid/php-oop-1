@@ -9,11 +9,11 @@
     [
     "title" => "Il Signore Degli Anelli",
     "genre" => ["Fantasy,Avventura"],
-    "length" => 132
+    "length" => 164
     ],
     [
     "title" => "Star Wars",
     "genre" => ["Fantasy,Action,Avventura"],
-    "length" => 132
+    "length" => 158
     ],
   ];
