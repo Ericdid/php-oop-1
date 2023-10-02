@@ -1,6 +1,6 @@
 <?php 
 
-class movie {
+class Movie {
     public $title;
 
     public $genre;

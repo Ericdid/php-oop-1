@@ -1,6 +1,6 @@
 <?php
 
-  $movies = [
+  $Movies_db = [
     [
     "title" => "Trappola Di Cristallo - Die Hard",
     "genre" => ["Natalizio,Action,Triller"],
