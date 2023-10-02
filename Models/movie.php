@@ -19,7 +19,7 @@ class Movie {
 
     public function get_details(){
         $genre_details = implode(" - ",$this -> genre);
-        return "titolo: $this->title, Durata: $this->length,Genere: $genre_details";
+        return "Titolo: $this->title <hr> Durata: $this->length minuti <hr> Genere: $genre_details";
     }
 
 }

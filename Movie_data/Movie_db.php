@@ -2,7 +2,7 @@
 
   $Movies_db = [
     [
-    "title" => "Trappola Di Cristallo - Die Hard",
+    "title" => "Trappola Di Cristallo",
     "genre" => ["Natalizio,Action,Triller"],
     "length" => 132
     ],
