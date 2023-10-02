@@ -26,11 +26,18 @@ foreach ($Movies_db as $movie) {
 </head>
 
 <body>
-    <div>
-        <h1>Prova Bootstrap</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum minima earum illo id laborum dolorum fugit
-            assumenda? Reiciendis, tempora. Quidem ex velit adipisci doloremque sed eaque natus fuga quas dolores.</p>
+    <div class="container">
+        <div class="row">
+            <?php foreach ($Movies_db as $movie): ?>
+            <div class="col">
+                <h1><?php echo $movie["title"] ?></h1>
+                <b><?php echo $movie["genre"] ?></b>
+                <p><?php echo $movie["length"] ?> minuti</p>
+            </div>
+            <?php endforeach; ?>
+        </div>
     </div>
+
 
 </body>
 
