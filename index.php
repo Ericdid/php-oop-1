@@ -1,23 +1,6 @@
 <?php
 
-class movie {
-    public $title;
-
-    public $genre;
-
-    public $length;
-
-    public function __construct(
-        string $title,
-        array $genre,
-        int  $length,
-    ){
-        $this ->title  = $title;
-        $this ->genre = $genre;
-        $this ->length = $length;
-    }
-
-}
+require_once __DIR__ . "/Models/movie.php";
 
 $new_movie = new movie ("Trappola Di Cristallo - Die Hard",["Natalizio,Action,Triller"],132);
 
